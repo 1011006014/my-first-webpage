@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Résumé</title>
+  <meta name="description" content="Résumé of Your Name, cloud and IT student at WGU.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="resume">
+    <header>
+      <h1>Your Name</h1>
+      <p class="tagline">Aspiring Cloud Engineer</p>
+      <ul class="contact">
+        <li><a href="mailto:you@example.com">you@example.com</a></li>
+        <li><a href="https://www.linkedin.com/in/your-handle">LinkedIn</a></li>
+        <li><a href="https://github.com/1011006014">GitHub</a></li>
+        <li>City, State</li>
+      </ul>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p>Cloud and IT student building hands-on AWS projects. Comfortable with serverless architecture, infrastructure as code, and CI/CD pipelines.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>AWS (S3, CloudFront, Lambda, API Gateway, DynamoDB, IAM)</li>
+        <li>Python</li>
+        <li>HTML / CSS / JavaScript</li>
+        <li>Git &amp; GitHub Actions</li>
+        <li>CloudFormation / AWS SAM</li>
+        <li>Linux</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <h3>B.S. Cloud Computing <span class="muted">(in progress)</span></h3>
+        <p class="muted">Western Governors University · Expected 20XX</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="entry">
+        <h3>Cloud Resume Challenge (AWS)</h3>
+        <p>Serverless résumé site: S3 + CloudFront (HTTPS), a visitor counter built with API Gateway, Lambda (Python), and DynamoDB, deployed automatically by GitHub Actions.</p>
+        <p><a href="https://YOUR-CLOUDFRONT-DOMAIN.cloudfront.net">Live site</a> · <a href="https://github.com/1011006014/my-first-webpage">Source code</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Visitors: <span id="visitor-count">…</span></p>
+    </footer>
+  </main>
+  <script src="config.js"></script>
+  <script src="counter.js"></script>
+</body>
+</html>
